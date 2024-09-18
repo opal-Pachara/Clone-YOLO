@@ -1,0 +1,6 @@
+train: /content/PET-Detect/Data-set/train
+val: /content/PET-Detect/Data-set/valid
+
+
+nc: 3
+names: ['bottle', 'cap', 'label']
