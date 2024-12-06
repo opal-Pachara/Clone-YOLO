@@ -1,6 +1,6 @@
-train: /content/PET-Detect/Data-set/train
-val: /content/PET-Detect/Data-set/valid
+train: C:\Users\Jedi\Final dataset\train
+val: C:\Users\Jedi\Final dataset\valid
 
 
-nc: 3
-names: ['bottle', 'cap', 'label']
+nc: 4
+names: ['Bottle', 'Can', 'Cap', 'Label']

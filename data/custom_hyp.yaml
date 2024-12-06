@@ -1,0 +1,28 @@
+lr0: 0.00334       # Initial learning rate
+lrf: 0.15135       # Final learning rate (lr0 * lrf)
+momentum: 0.9      # Momentum (higher for better convergence)
+weight_decay: 0.00025  # Weight decay for regularization
+warmup_epochs: 3.0 # Warmup epochs to stabilize training
+warmup_momentum: 0.8  # Warmup momentum for better convergence
+warmup_bias_lr: 0.2   # Warmup bias learning rate
+box: 0.05          # Bounding box loss gain
+cls: 0.2           # Classification loss gain
+cls_pw: 0.8        # Positive class weight
+obj: 1.0           # Object loss gain
+obj_pw: 0.8        # Positive object weight
+iou_t: 0.7         # IoU threshold for positive samples (ปรับให้อยู่ในช่วง 0.4-0.5 เพื่อการตรวจจับที่ดีขึ้น)
+anchor_t: 4.0      # Anchor-multiple threshold
+fl_gamma: 0.0      # Focal loss gamma (ไม่ใช้ focal loss)
+hsv_h: 0.015       # Hue augmentation (fraction)
+hsv_s: 0.7         # Saturation augmentation (fraction)
+hsv_v: 0.4         # Value augmentation (fraction)
+mosaic: 1.0        # Mosaic augmentation probability
+mixup: 0.1         # MixUp augmentation probability
+scale: 0.5         # Scale augmentation (fraction)
+translate: 0.1     # Translate augmentation (fraction)
+fliplr: 0.5        # Horizontal flip probability
+flipud: 0.0        # Vertical flip probability
+degrees: 0.0       # No rotation
+shear: 0.0         # No shear augmentation
+perspective: 0.0   # No perspective distortion
+copy_paste: 0.0    # No copy-paste augmentation
